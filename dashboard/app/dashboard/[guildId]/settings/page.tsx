@@ -68,9 +68,16 @@ export default async function SettingsPage({ params }: SettingsPageProps) {
           </div>
 
           {/* Settings form */}
-          <div className="glass-card p-6">
-            <SettingsForm guildId={params.guildId} initial={data} />
-          </div>
+          {data ? (
+            <div className="glass-card p-6">
+              <SettingsForm guildId={params.guildId} initial={data} />
+            </div>
+          ) : (
+            <div className="glass-card border border-yellow-500/20 bg-yellow-500/5 p-6">
+              <p className="text-yellow-400/80 text-[13px] font-semibold">Unable to load settings</p>
+              <p className="text-yellow-300/60 text-[12px] mt-1">Settings data could not be retrieved. Try refreshing the page.</p>
+            </div>
+          )}
         </>
       )}
     </div>
