@@ -1,0 +1,5 @@
+{
+  "/api/proxy/guilds/[guildId]/player/route": "app/api/proxy/guilds/[guildId]/player/route.js",
+  "/page": "app/page.js",
+  "/api/auth/[...nextauth]/route": "app/api/auth/[...nextauth]/route.js"
+}
