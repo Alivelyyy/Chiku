@@ -1,0 +1,48 @@
+BOT:
+  OWNERS: ["1304080189029875753","1312500276187369646"]
+  ADMINS: ["1304080189029875753","1312500276187369646"]
+  TOPGG_KEY: "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfdCI6Ijc4MzU3ODY3MTg3ODQ2MzQ4OCIsImlkIjoiNzgyNTk1MTM4MjIyMzQyMTQ0IiwiaWF0IjoxNzY0NjU2NTEzfQ.O56mEb1svrx1OghZKPM2FottfgKl-QriZ0irrxvzneM"
+
+LINKS:
+  SUPPORT: "https://discord.gg/q2jzjfYUJW"
+
+SPOTIFY:
+  ID: "b3bbb44982aa4d098f0dcfaf73f9de19"
+  SECRET: "273f1d5d2640475097d46482908a73ce"
+
+LAVALINK:
+  HOST: "lavalinkv4.serenetia.com"
+  PORT: 80
+  AUTH: "youshallnotpass"
+  SECURE: false
+  NAME: "main"
+
+Chiku:
+  PREFIX: "!"
+  EMOJIS: "black"
+  CLIENT_ID: "1500425524009500802"
+  TOKEN: "MTUwMDQyNTUyNDAwOTUwMDgwMg.GSgDcL.8yoghwNoMG9nbv8NkixwacLPWfSp9FrTawTbRM"
+
+Mimi:
+  PREFIX: "!"
+  EMOJIS: "black"
+  SHARDS: "auto"
+  PER_CLUSTER: 4
+  CLIENT_ID: "1500425524009500802"
+  CLIENT_SECRET: "WzM7GKdB6R-Fbo6RSdrsST6y-2D42k__"
+  TOKEN: "MTUwMDQyNTUyNDAwOTUwMDgwMg.GSgDcL.8yoghwNoMG9nbv8NkixwacLPWfSp9FrTawTbRM"
+
+WEBHOOKS:
+  ERROR: "https://discord.com/api/webhooks/1482289265307156552/1HHAW59Db_HbGRjWkwXZKC28cRwFG5sS9N73MRxS6MRu_N89oyAH_x_fcBFDTbdcpx1k"
+  STATIC: "https://discord.com/api/webhooks/1482289377332953198/HJTAU7OHUkbBONLt3phFyqHclvBovBxHgEPui3Bv6hEs2xIeU3_Mr40AENWSCVHT-Gjh"
+  SERVER: "https://discord.com/api/webhooks/1482289535152033887/ZQsilv-KVnk-kF8BMv9eJmBkkkcNQfvBmbIZbG6UMlL6ARtelGMk-VjYZ-kaVB22r2Sq"
+  COMMAND: "https://discord.com/api/webhooks/1482289611920380044/83zu7ZkazgjpblGbvZB-asjBrOhN-iJ5B1-B8pRD8V_esd1RR9LXjTJtChCH3jzjPD7o"
+
+DATABASE:
+  MONGODB_URI: "mongodb+srv://r3ag6:irk2y@cluster0.faljdmg.mongodb.net/Chiku?retryWrites=true&w=majority"
+
+DASHBOARD:
+  ENABLED: true
+  PORT: 5021
+  API_KEY: "dd486359d561db6badfad26868d718b82220fb63bf63329517e886530d1078e0"
+  ALLOWED_ORIGIN: "https://chikubot.vercel.app"
