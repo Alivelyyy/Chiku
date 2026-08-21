@@ -1,4 +1,4 @@
-// File: /home/runner/workspace/dashboard/app/api/proxy/guilds/[guildId]/player/route.ts
+// File: /home/alive/Chiku/dashboard/app/api/proxy/guilds/[guildId]/player/route.ts
 import * as entry from '../../../../../../../../app/api/proxy/guilds/[guildId]/player/route.js'
 import type { NextRequest } from 'next/server.js'
 
