@@ -1,0 +1,54 @@
+# ─────────────────────────────────────────────────
+# Chiku Bot — Configuration
+# Copy this file to config.yml and fill in your values.
+# NEVER commit config.yml to version control!
+# ─────────────────────────────────────────────────
+
+BOT:
+  OWNERS: ["your-discord-user-id"]
+  ADMINS: ["your-discord-user-id"]
+  TOPGG_KEY: "your-topgg-api-key"
+
+LINKS:
+  SUPPORT: "https://discord.gg/your-support-server"
+
+SPOTIFY:
+  ID: "your-spotify-client-id"
+  SECRET: "your-spotify-client-secret"
+
+LAVALINK:
+  HOST: "localhost"
+  PORT: 2333
+  AUTH: "youshallnotpass"
+  SECURE: false
+  NAME: "main"
+
+Chiku:
+  PREFIX: "!"
+  EMOJIS: "black"
+  CLIENT_ID: "your-discord-client-id"
+  TOKEN: "your-discord-bot-token"
+
+Mimi:
+  PREFIX: "!"
+  EMOJIS: "black"
+  SHARDS: "auto"
+  PER_CLUSTER: 4
+  CLIENT_ID: "your-discord-client-id"
+  CLIENT_SECRET: "your-discord-client-secret"
+  TOKEN: "your-discord-bot-token"
+
+WEBHOOKS:
+  ERROR: "https://discord.com/api/webhooks/your-webhook-id/your-webhook-token"
+  STATIC: "https://discord.com/api/webhooks/your-webhook-id/your-webhook-token"
+  SERVER: "https://discord.com/api/webhooks/your-webhook-id/your-webhook-token"
+  COMMAND: "https://discord.com/api/webhooks/your-webhook-id/your-webhook-token"
+
+DATABASE:
+  MONGODB_URI: "mongodb+srv://user:password@cluster.mongodb.net/Chiku?retryWrites=true&w=majority"
+
+DASHBOARD:
+  ENABLED: true
+  PORT: 3422
+  API_KEY: "generate-a-long-random-secret-key"
+  ALLOWED_ORIGIN: "https://your-dashboard.vercel.app"
