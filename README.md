@@ -1,4 +1,4 @@
-<![CDATA[<div align="center">
+<div align="center">
 
 # 🎵 Chiku
 
@@ -220,4 +220,3 @@ This project is licensed under the GNU General Public License v3.0 — see the [
 If you find Chiku useful, please consider giving it a ⭐!
 
 </div>
-]]>
