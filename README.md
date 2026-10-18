@@ -220,3 +220,12 @@ This project is licensed under the GNU General Public License v3.0 — see the [
 If you find Chiku useful, please consider giving it a ⭐!
 
 </div>
+
+
+---
+
+## 📚 Full Project Documentation
+
+A complete **5-page engineering deep-dive** for this repo — overview & purpose, technology stack & architecture, feature-by-feature breakdown, code internals & systems design, and development timeline & resume highlights — is available in [`DOCUMENTATION.md`](DOCUMENTATION.md).
+
+*Part of the complete coding-history dossier generated on 2026-10-18.*
